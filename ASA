@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    // Print a message
+    printf("Hello, welcome to C programming!\n");
+
+    // Declare variables
+    int a = 5;
+    int b = 3;
+    int sum;
+
+    // Perform calculation
+    sum = a + b;
+
+    // Display result
+    printf("The sum of %d and %d is %d\n", a, b, sum);
+
+    return 0;
+}
